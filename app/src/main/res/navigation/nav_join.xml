@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_join"
+    app:startDestination="@id/joinRoleFragment">
+    <fragment
+        android:id="@+id/joinRoleFragment"
+        android:name="com.example.practice6.activities.join.JoinRoleFragment"
+        android:label="fragment_join_role"
+        tools:layout="@layout/fragment_join_role" >
+        <action
+            android:id="@+id/action_joinRoleFragment_to_joinNameFragment"
+            app:destination="@id/joinNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinNameFragment"
+        android:name="com.example.practice6.activities.join.JoinNameFragment"
+        android:label="fragment_join_name"
+        tools:layout="@layout/fragment_join_name" >
+        <action
+            android:id="@+id/action_joinNameFragment_to_joinSuccessFragment"
+            app:destination="@id/joinSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinSuccessFragment"
+        android:name="com.example.practice6.activities.join.JoinSuccessFragment"
+        android:label="fragment_join_success"
+        tools:layout="@layout/fragment_join_success" />
+</navigation>

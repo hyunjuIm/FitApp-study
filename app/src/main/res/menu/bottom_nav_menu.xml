@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="검색"
+        android:icon="@drawable/ic_search" />
+
+    <item
+        android:id="@+id/menu_chat"
+        android:title="채팅"
+        android:icon="@drawable/ic_chat" />
+
+    <item
+        android:id="@+id/menu_my_page"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_my" />
+
+</menu>
